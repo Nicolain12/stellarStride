@@ -1,0 +1,9 @@
+.homeComponent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--Fondo, linear-gradient(180deg, #1A073B 63.5%, #000 100%));
+}
+
+
