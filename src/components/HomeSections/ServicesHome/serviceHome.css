@@ -50,18 +50,16 @@
 
 .serviceHomeName{
     width: 100%;
-    margin: 15%;
+    margin: 1;
     font-size: 18px;
     text-align: center;
 }
 .serviceHomeLearnMore{
-    margin-bottom: 5%;
     height: 2rem;
     border: 0px;
     border-radius: 5px;
     font-family: "Abel", sans-serif;
     font-size: 1.3rem;
-    margin-top: 30px;
     font-weight: bold;
     cursor: pointer;
     transition: background-color 0.3s ease;

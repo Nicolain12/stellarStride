@@ -11,7 +11,7 @@
 .navSection{
     position: sticky;
     bottom: 20px;
-    width: 30%;
+    width: 80%;
     display: flex;
     justify-content: space-around;
 }
@@ -20,6 +20,9 @@
     font-size: 1.4rem;
     cursor: pointer;
 }
+.navLink.active {
+    color: green; /* Color for the active link */
+  }
 
 .navLink:hover{
     color: rgb(165, 166, 167);
