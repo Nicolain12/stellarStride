@@ -4,13 +4,13 @@
     justify-content: center;
     align-items: center;
     background: var(--Fondo, linear-gradient(180deg, #1A073B 63.5%, #000 100%));
-    overflow-y: none
-    ;
+    overflow-y: none;
 }
+
 
 .navSection{
     position: sticky;
-    bottom: 20px;
+    bottom: 0px;
     width: 80%;
     display: flex;
     justify-content: space-around;

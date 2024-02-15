@@ -69,6 +69,12 @@
     background-color: rgb(177, 177, 177);
 }
 
+.serviceTitle{
+    margin: 0px;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
 /* Tablet */
 @media screen and (min-width : 425px) {
     .homeServices {
