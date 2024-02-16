@@ -8,13 +8,13 @@ import { PlansHome } from '../../components/HomeSections/PlansHome/plansHome';
 function Home() {
   return (
     <div className='homeComponent'>
-      <Element name="bannerHome">
+      <Element  name="bannerHome">
         <BannerHome />
       </Element>
-      <Element name="serviceHome">
+      <Element className='elementHome' name="serviceHome">
         <ServiceHome />
       </Element>
-      <Element name="plansHome">
+      <Element className='elementHome' name="plansHome">
         <PlansHome />
       </Element>
   

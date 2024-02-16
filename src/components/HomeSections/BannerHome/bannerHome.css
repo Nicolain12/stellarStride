@@ -26,6 +26,7 @@
     letter-spacing: 6px;
     margin: 0px;
     font-weight: 500;
+    z-index: 3;
     text-shadow: 2px -3px 4px rgba(0,0,0,0.75);
 }
 
@@ -33,6 +34,7 @@
     font-size: 39px;
     margin: 0px;
     font-weight: 300;
+    z-index: 3;
     text-shadow: 2px -3px 4px rgba(0,0,0,0.75);
 }
 
@@ -45,6 +47,7 @@
     font-size: 1.3rem;
     margin-top: 30px;
     font-weight: bold;
+    z-index: 3;
 }
 
 .bannerImageDiv{
@@ -142,6 +145,7 @@
         margin-top: 15px;
         cursor: pointer;
         transition: background-color 0.3s ease;
+
     }
 
     .bannerButton:hover{

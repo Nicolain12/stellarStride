@@ -1,63 +1,188 @@
 .plansComponent {
     width: 100%;
+    margin: 9% 0;
     height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
-.plansTitle{
-    margin: 0px;
+.homePlansDiv {
+    width: 100%;
+    height: 93%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.plansHomeTitleDiv {
+    height: 7%;
+    margin: 3%;
+}
+
+.plansTitle {
+    margin: 0;
     font-size: 2.5rem;
     font-weight: 500;
+    text-align: center;
 }
 
-.plansHomeName{
-    margin: 8px 0px;
+/* Main Text Plan */
+.plansHomeName {
+    margin: 0;
 }
 
-.plansHomeDescription{
-    margin: 15px 0px;
+.plansHomeDescription {
+
+    font-size: 10px;
+    color: #00F0E2;
 }
 
-.plansHomeServiceIncludes{
-    margin: 0px;
+.plansHomeServiceIncludes {
+    margin: 0;
+    font-size: 10px;
 }
 
-.homePlansInfoPriceDiv{
+/* Main Text Plan */
+
+.homePlansInfoPriceDiv {
     display: flex;
     margin: 15px 0px;
-    width: 50%;
+    width: 100%;
     justify-content: space-around;
 }
 
 .homePlansInfMeetoDiv {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    flex-direction: column;
 }
 
-.homePlans{
-    width: 50%;
-    background: rgb(69,27,122);
-    background: linear-gradient(180deg, rgba(69,27,122,1) 0%, rgba(16,13,20,0.32816876750700286) 99%);
+.homePlans {
+    width: 40%;
+    height: 30%;
+    background: rgb(69, 27, 122);
+    background: linear-gradient(180deg, rgba(69, 27, 122, 1) 0%, rgba(16, 13, 20, 0.32816876750700286) 99%);
     padding: 2%;
     border-radius: 5px;
 }
 
-.plansStartingPriceTitle{
-    margin: 0px
+.plansStartingPriceTitle {
+    margin: 0;
+    font-size: 10px;
 }
 
-.plansStartingPriceNumber{
+.plansStartingPriceNumber {
     margin: 0px;
+    font-size: 10px;
     display: flex;
     justify-content: center;
 }
 
-.plansLinkMeet{
-    color:  rgb(37, 166, 189);
+.plansLinkMeet {
+    font-size: 10px;
+    color: rgb(37, 166, 189);
+    cursor: pointer;
+}
+.plansLinkMeet:hover {
+    text-decoration: underline;
 }
 
+@media screen and (min-width : 425px) {
+    .plansHomeName {
+        margin: 0;
+    }
+    .plansHomeDescription {
+        font-size: 12px;
+    }
+    .plansHomeServiceIncludes {
+        font-size: 12px;
+    }
+    .plansStartingPriceTitle {
+        font-size: 12px;
+    }
+    .plansStartingPriceNumber {
+        font-size: 12px;
+    }
+    .plansLinkMeet {
+        font-size: 12px;
+    }
+}
+@media screen and (min-width : 768px) {
+    .plansHomeName {
+        margin: 0;
+        font-size: 2rem;
+    }
+    .plansComponent {
+        margin: 0;
+    }
 
+    .homePlans {
+        width: 25%;
+    }
+    /* Text */
+    .plansHomeDescription {
+        font-size: 14px;
+    }
+    .plansHomeServiceIncludes {
+        font-size: 14px;
+    }
+    .homePlansInfoPriceDiv{
+        width: 60%;
+        margin: 10% 0;
+    }
+    .plansStartingPriceTitle {
+        font-size: 10px;
+    }
+    .plansStartingPriceNumber {
+        font-size: 10px;
+    }
+    .plansLinkMeet {
+        font-size: 10px;
+    }
+
+    .homePlansInfMeetoDiv {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width : 1060px) {
+    .homePlansInfoPriceDiv{
+        width: 55%;
+    }
+    .plansHomeDescription {
+        font-size: 16px;
+    }
+    .plansHomeServiceIncludes {
+        font-size: 16px;
+    }
+    .plansStartingPriceTitle {
+        font-size: 12px;
+    }
+    .plansStartingPriceNumber {
+        font-size: 12px;
+    }
+    .plansLinkMeet {
+        font-size: 12px;
+    }
+}
+@media screen and (min-width : 1400px) {
+    .homePlansInfoPriceDiv{
+        width: 60%;
+    }
+    .plansHomeDescription {
+        font-size: 19px;
+    }
+    .plansHomeServiceIncludes {
+        font-size: 19px;
+    }
+    .plansStartingPriceTitle {
+        font-size: 15px;
+    }
+    .plansStartingPriceNumber {
+        font-size: 15px;
+    }
+    .plansLinkMeet {
+        font-size: 14px;
+    }
+}
