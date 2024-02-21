@@ -8,7 +8,7 @@
 
 .homePlansDiv {
     width: 100%;
-    height: 93%;
+    height: 83%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -16,7 +16,7 @@
 
 .plansHomeTitleDiv {
     height: 7%;
-    margin: 3%;
+    margin: 1%;
 }
 
 .plansTitle {
@@ -38,15 +38,16 @@
 }
 
 .plansHomeServiceIncludes {
-    margin: 0;
-    font-size: 10px;
+    margin: 2% 0%;
+    font-size: 0.75rem;
+    color: #00F0E2;
 }
 
 /* Main Text Plan */
 
 .homePlansInfoPriceDiv {
     display: flex;
-    margin: 15px 0px;
+    margin: 3% 0px;
     width: 100%;
     justify-content: space-around;
 }
@@ -59,7 +60,7 @@
 
 .homePlans {
     width: 40%;
-    height: 30%;
+    height: 28%;
     background: rgb(69, 27, 122);
     background: linear-gradient(180deg, rgba(69, 27, 122, 1) 0%, rgba(16, 13, 20, 0.32816876750700286) 99%);
     padding: 2%;
@@ -68,7 +69,7 @@
 
 .plansStartingPriceTitle {
     margin: 0;
-    font-size: 10px;
+    font-size: 0.70rem;
 }
 
 .plansStartingPriceNumber {
@@ -79,9 +80,13 @@
 }
 
 .plansLinkMeet {
-    font-size: 10px;
-    color: rgb(37, 166, 189);
+    font-size: 0.7rem;
+    color: rgb(255, 255, 255);
     cursor: pointer;
+    background-color: rgba(70, 27, 122, 0);
+    border: 1px solid white;
+    padding: 5% 6%;
+    border-radius: 5px;
 }
 .plansLinkMeet:hover {
     text-decoration: underline;
@@ -106,6 +111,14 @@
     .plansLinkMeet {
         font-size: 12px;
     }
+
+    .homePlans{
+        height: 27%;
+    }
+
+    .homePlansDiv{
+        height: 80%
+    }
 }
 @media screen and (min-width : 768px) {
     .plansHomeName {
@@ -118,6 +131,7 @@
 
     .homePlans {
         width: 25%;
+        height: 30%;
     }
     /* Text */
     .plansHomeDescription {
@@ -128,7 +142,7 @@
     }
     .homePlansInfoPriceDiv{
         width: 60%;
-        margin: 10% 0;
+        margin: 4% 0;
     }
     .plansStartingPriceTitle {
         font-size: 10px;
@@ -162,22 +176,27 @@
     .plansStartingPriceNumber {
         font-size: 12px;
     }
+
+    .homePlans{
+        height: fit-content;
+    }
+
     .plansLinkMeet {
         font-size: 12px;
     }
 }
 @media screen and (min-width : 1400px) {
     .homePlansInfoPriceDiv{
-        width: 60%;
+        width: 50%;
     }
     .plansHomeDescription {
-        font-size: 19px;
+        font-size: 18px;
     }
     .plansHomeServiceIncludes {
-        font-size: 19px;
+        font-size: 18px;
     }
     .plansStartingPriceTitle {
-        font-size: 15px;
+        font-size: 14px;
     }
     .plansStartingPriceNumber {
         font-size: 15px;

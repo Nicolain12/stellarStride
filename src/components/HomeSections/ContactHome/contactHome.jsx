@@ -27,11 +27,11 @@ function ContactHome() {
                         <input type="email" name="email" id="" className="input-email" placeholder="Email" />
                         <input type="text" name="company" id="" className="input-company" placeholder="Company Name" />
                     </div>
-                    <div className="contact-submit-button-div">
-                        <button className="send-button">Send</button>
-                    </div>
                 </div>
             </form>
+            <div className="contact-submit-button-div">
+                        <button className="send-button">Send</button>
+                        </div>
         </div>
 
     )

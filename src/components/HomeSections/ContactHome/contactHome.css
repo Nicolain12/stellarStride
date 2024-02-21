@@ -32,12 +32,11 @@
     width: 90%;
     padding: 2%;
     margin: 2% 0;
-    height: 8rem;
+    height: 7.5rem;
     border-radius: 5px;
     border: 2px solid white;
     background: none;
     color: white;
-
 }
 
 .input-message::placeholder {
@@ -47,11 +46,12 @@
 .input-plan {
     width: 95%;
     padding: 2%;
-    height: 3rem;
+    height: 4rem;
     border-radius: 5px;
     border: 2px solid white;
     background: none;
     color: white;
+    margin: 2% 0%;
 }
 
 .contact-info-div {

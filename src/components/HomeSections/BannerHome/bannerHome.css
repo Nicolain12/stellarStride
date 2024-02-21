@@ -113,7 +113,7 @@
 
     .bannerComponent {
         width: 100vw;
-        overflow:hidden;
+        overflow-x: hidden;
         display: flex;
         flex-direction: column;
         background-position: center;
@@ -166,6 +166,7 @@
         background-position: right;
         background-size: cover;
         width: 100vw;
+        height: 100vh;
         background-repeat: no-repeat; 
     }
 }

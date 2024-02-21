@@ -12,19 +12,27 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap;
 }
 
-.homeServices {
-    width: 40%;
-    margin-top: 15%;
-}
-
-.homeServicesIconDiv{
+.homeServicesInfoDiv {
+    height: 122px;
+    width: 27%;
     display: flex;
-    justify-content: flex-start;
+    border-radius: 5px;
+    justify-content: space-around;
     align-items: center;
+    padding: 2%;
+    background: linear-gradient(180deg, rgba(69, 27, 122, 1) 0%, rgba(16, 13, 20, 0.32816876750700286) 99%);
+    align-content: center;
+    position: relative;
 }
+
+.homeServiceImgIcon{
+    position: absolute;
+    right: 65%;
+    top:30%;
+}
+
 .serviceHomeImg{
     border: 2px solid white;
     background: var(--Fondo, linear-gradient(180deg, #1A073B 63.5%, #000 100%));
@@ -37,37 +45,7 @@
     left: 10px;
 }
 
-.homeServicesInfoDiv{
-    border: 2px solid white;
-    height: 100px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    padding: 3%;
-}
 
-.serviceHomeName{
-    width: 100%;
-    margin: 1;
-    font-size: 18px;
-    text-align: center;
-}
-.serviceHomeLearnMore{
-    height: 2rem;
-    border: 0px;
-    border-radius: 5px;
-    font-family: "Abel", sans-serif;
-    font-size: 1.3rem;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.serviceHomeLearnMore:hover{
-    background-color: rgb(177, 177, 177);
-}
 
 .serviceTitle{
     margin: 0px;
