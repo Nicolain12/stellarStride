@@ -4,19 +4,28 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.servicesHomeTitleDiv{
+    width: 100%;
+    display: flex;
+    margin-top: 1%;
+    height: 7%;
     justify-content: center;
+    align-items: center;
 }
 
 .servicesHomeMainDiv {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    height: 83%;
     align-items: center;
+    flex-direction: column;
 }
 
 .homeServicesInfoDiv {
-    height: 122px;
-    width: 27%;
+    height: 200px;
+    width: 37%;
     display: flex;
     border-radius: 5px;
     justify-content: space-around;
@@ -55,9 +64,7 @@
 
 /* Tablet */
 @media screen and (min-width : 425px) {
-    .homeServices {
-        margin-top: 5%;
-    }
+
     .homeServicesInfoDiv{
         height: 150px;
     }
@@ -67,10 +74,6 @@
 }
 /* Desktop */
 @media screen and (min-width : 768px) {
-    .homeServices {
-        width: 27%;
-        margin-top: 5%;
-    }
     .homeServicesInfoDiv{
         height: 150px;
     }
@@ -80,9 +83,11 @@
 }
 /* Big Desktop */
 @media screen and (min-width : 1060px) {
-    .homeServices {
+    .servicesHomeMainDiv{
+        height: 75%;
+    }
+    .homeServicesInfoDiv{
         width: 27%;
-        margin-top: 5%;
     }
     .serviceHomeImg{
         width: 50px;
@@ -91,6 +96,11 @@
         top: 25px;
         left: 30px;
     }
+
+    .servicesHomeTitleDiv{
+        padding-top: 2%;
+    }
+
     .serviceHomeName{
         font-size: 30px;
         margin: 0 0 5%;

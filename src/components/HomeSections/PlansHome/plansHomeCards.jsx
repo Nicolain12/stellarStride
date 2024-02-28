@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { color, motion } from "framer-motion";
+import { AnimatePresence, color, motion } from "framer-motion";
 import { PopupPlans } from "./popupPlans";
 import "./plansHomeCards.css";
 
@@ -47,7 +47,11 @@ function PlansHomeCards() {
               </div>
             </div>
           ))}
-          {selectedPlan && <PopupPlans plan={selectedPlan} onClose={closePopup} />}
+          <AnimatePresence>
+          {selectedPlan &&
+          <PopupPlans plan={selectedPlan} onClose={closePopup} />
+          }
+          </AnimatePresence> 
         </div>
       );
     }

@@ -21,7 +21,7 @@
 .navSection{
     position: sticky;
     bottom: 10px;
-    width: 50%;
+    width: 100%;
     display: flex;
     justify-content: space-around;
 }
@@ -36,6 +36,12 @@
 
 .navLink:hover{
     color: rgb(165, 166, 167);
+}
+
+@media screen and (min-width : 768px) {
+    .navSection{
+        width: 50%;
+    }
 }
 
 @media screen and (min-width : 1060px) {

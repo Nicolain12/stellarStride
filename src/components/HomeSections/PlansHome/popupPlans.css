@@ -11,13 +11,33 @@
   }
   
   .popup-content {
-    background: white;
+    background: rgb(22, 221, 171);
     padding: 20px;
     border-radius: 5px;
+    color: black;
   }
   
   button {
     margin-top: 10px;
     cursor: pointer;
+  }
+
+  .popupCloseDiv{
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .popupCloseBtn{
+    font-size: 2.5rem;
+    cursor: pointer;
+  }
+
+  .popupCloseBtn:hover{
+    color: red;
+  }
+
+  .popupPlanName{
+    margin: 0px;
+    font-size: 2.5rem;
   }
   

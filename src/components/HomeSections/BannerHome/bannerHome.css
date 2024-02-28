@@ -13,6 +13,10 @@
 
 }
 
+canvas{
+    height: 100vh !important;
+}
+
 .titleHomeDiv{
     width: 100%;
     display: flex;
