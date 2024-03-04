@@ -1,0 +1,115 @@
+.homeProyectsImg{
+    width: 113px;
+    object-fit: contain;
+}
+
+.proyectAlienDiv3d{
+    display: none;
+}
+
+.serviceProyectsContainer{
+    background: rgba(7, 7, 7, 0.33);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.9px);
+    display: flex;
+    height: 100%;
+    border: 1px solid rgba(7, 7, 7, 0.73);
+    flex-direction: column;
+}
+
+
+.homeProyectsDiv{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.homeProyectsImg{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    margin-right: 3%;
+}
+
+.homeProyectsName{
+    font-size: 1.2rem;
+    margin: 0px;
+}
+
+.homeProyects{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.serviceHomePoyectsTitle{
+    font-size: 2.1rem;
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+
+@media screen and (min-width : 1060px) {
+    .homeProyectsName{
+        font-size: 2rem;
+    }
+    .homeProyectsImg{
+        width: 60px;
+        height: 60px;
+        object-fit: cover;
+        margin-right: 3%;
+    }
+
+    .homeProyectsDiv{
+        width: 30%;
+    }
+
+    .homeProyects{
+        justify-content: space-between;
+    }
+
+    .serviceProyectsContainer{
+        height: 100%;
+    }
+
+    .proyectAlienDiv3d{
+        width: 20%;
+    }
+    
+    
+}
+
+@media screen and (min-width : 768px) {
+
+    .serviceHomePoyectsTitle{
+        display: none;
+    }
+
+    .homeProyectsName{
+        font-size: 1.4rem;
+    }
+    .homeProyectsImg{
+        width: 45px;
+        height: 45px;
+        object-fit: cover;
+        margin-right: 3%;
+    }
+    
+    .proyectAlienDiv3d{
+        display: block;
+    }
+    
+    .serviceProyectsContainer{
+        flex-direction: row;
+    }
+}
+
+
+

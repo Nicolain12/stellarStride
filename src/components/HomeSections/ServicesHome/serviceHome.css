@@ -6,6 +6,12 @@
     align-items: center;
 }
 
+.proyectsHomeMainDiv{
+    height: 30%;
+    margin-top: 4%;
+    width: 95%;
+}
+
 .servicesHomeTitleDiv{
     width: 100%;
     display: flex;
@@ -18,24 +24,26 @@
 .servicesHomeMainDiv {
     width: 100%;
     display: flex;
-    height: 83%;
+    height: 50%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.proyectHomeMainDiv {
+    width: 100%;
+    display: flex;
+    height: 40%;
     align-items: center;
     flex-direction: column;
 }
 
 .homeServicesInfoDiv {
-    height: 200px;
-    width: 37%;
+    height: 133px;
+    width: 95%;
     display: flex;
     border-radius: 5px;
     justify-content: space-around;
     align-items: center;
-    padding: 2%;
-    background: rgba(255,255,255,0.1);
-    align-content: center;
-    backdrop-filter: blur(20px);
-    position: relative;
-    border: 1px solid rgba(255,255,255,0.3) ;
 }
 
 .homeServiceImgIcon{
@@ -73,23 +81,41 @@
     .serviceHomeName{
         font-size: 28px;
     }
+
+    .servicesHomeMainDiv{
+        height: 55%;
+    }
+
+    .proyectsHomeMainDiv{
+        height: 25%;
+    }
+
+  
 }
 /* Desktop */
 @media screen and (min-width : 768px) {
     .homeServicesInfoDiv{
-        height: 110px;
+        height: 145px;
     }
     .serviceHomeName{
         font-size: 30px;
     }
+
+    .proyectsHomeMainDiv{
+        width: 95%;
+        margin-top: 3%;
+    }
+    
+
 }
 /* Big Desktop */
 @media screen and (min-width : 1060px) {
     .servicesHomeMainDiv{
-        height: 75%;
+        height: 45%;
     }
     .homeServicesInfoDiv{
-        width: 27%;
+        width: 31%;
+        height: 90%;
     }
     .serviceHomeImg{
         width: 50px;
@@ -98,7 +124,6 @@
         top: 25px;
         left: 30px;
     }
-
     .servicesHomeTitleDiv{
         padding-top: 2%;
     }
@@ -106,5 +131,11 @@
     .serviceHomeName{
         font-size: 30px;
         margin: 0 0 5%;
+    }
+
+    .proyectsHomeMainDiv{
+        height: 25%;
+        margin-top: 3%;
+        width: 100%;
     }
 }

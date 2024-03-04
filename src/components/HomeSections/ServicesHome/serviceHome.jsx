@@ -1,6 +1,7 @@
 import React from "react";
 import "./serviceHome.css"
 import { ServiceHomeCards } from "./serivceHomeCards.jsx";
+import { ServiceProyects } from "./serviceProyects";
 
 function ServiceHome() {
 
@@ -11,6 +12,9 @@ function ServiceHome() {
             </div>
             <div className="servicesHomeMainDiv">
             <ServiceHomeCards/>
+            </div>
+            <div className="proyectsHomeMainDiv">
+            <ServiceProyects/>
             </div>
         </div>
     )

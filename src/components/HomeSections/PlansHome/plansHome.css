@@ -62,9 +62,11 @@
 .homePlans {
     width: 40%;
     height: 28%;
-    background: rgb(69, 27, 122);
-    background: linear-gradient(180deg, rgba(69, 27, 122, 1) 0%, rgba(16, 13, 20, 0.32816876750700286) 99%);
+    background: rgba(56, 46, 46, 0.62);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     padding: 2%;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
 }
 

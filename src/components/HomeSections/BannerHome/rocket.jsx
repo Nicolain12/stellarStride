@@ -29,7 +29,7 @@ const Rockets = () => {
 
 const RocketsCanvas = () => {
     return(
-    <Canvas gl={{ preserveDrawingBuffer: true }} camera={{ fov: 75, position: [5,0, 20], rotation: [0, Math.PI / 7.9, 5.6]  }}>
+    <Canvas className="CanvasRocketImportant" gl={{ preserveDrawingBuffer: true }} camera={{ fov: 75, position: [5,0, 20], rotation: [0, Math.PI / 7.9, 5.6]  }}>
         <ambientLight />
         <pointLight position={[15, 10, 10]} />
         <Suspense fallback={<CanvasLoader/>}>
