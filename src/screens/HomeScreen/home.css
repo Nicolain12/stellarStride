@@ -42,6 +42,10 @@
     .navSection{
         width: 50%;
     }
+
+    .elementHome{
+        width: 95%;
+    }
 }
 
 @media screen and (min-width : 1060px) {

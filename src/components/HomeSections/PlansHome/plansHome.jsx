@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import "./plansHome.css"
 import "./plansHomeCards.jsx"
 import { PlansHomeCards } from "./plansHomeCards.jsx";
 
 function PlansHome() {
+
+    const [produtsActive,setProductsActive] = useState(false)
 
     return (
 

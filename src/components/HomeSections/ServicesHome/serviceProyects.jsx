@@ -21,6 +21,7 @@ function ServiceProyects() {
       <div className="serviceHomeProyectsTitleDiv">
       <h1 className="serviceHomePoyectsTitle">Some Proyects us</h1>
     </div>
+    <div className="ServiceHomeProyectsContain">
         <div className="homeProyects">
           {proyectName.map((proyect, index) => (
             <motion.div               
@@ -40,6 +41,7 @@ function ServiceProyects() {
         </div>
         <div className="proyectAlienDiv3d">
             <AliensCanvas />
+        </div>
         </div>
         </div>
       );

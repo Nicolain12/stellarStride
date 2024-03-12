@@ -5,13 +5,14 @@
     flex-direction: column;
 }
 
+
 .homePlansDiv {
-        width: 100%;
-        height: 83%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        align-items: center;
+    width: 100%;
+    height: 83%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .plansHomeTitleDiv {
@@ -63,12 +64,11 @@
     width: 40%;
     height: 28%;
     background: rgba(56, 46, 46, 0.62);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     padding: 2%;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
 }
+
 
 .plansStartingPriceTitle {
     margin: 0;
@@ -88,11 +88,15 @@
     cursor: pointer;
     background-color: rgba(70, 27, 122, 0);
     border: 1px solid white;
-    padding: 5% 6%;
+    padding: 4% 6%;
     border-radius: 5px;
 }
 .plansLinkMeet:hover {
     text-decoration: underline;
+}
+
+.homePlansProducts{
+    display: none;
 }
 
 @media screen and (min-width : 425px) {
@@ -122,6 +126,8 @@
     .homePlansDiv{
         height: 75%
     }
+
+   
 }
 @media screen and (min-width : 768px) {
     .plansHomeName {
@@ -133,11 +139,31 @@
     }
 
     .homePlans {
-        width: 25%;
+        width: 28%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    padding: 0.5%;
+    height: min-content;
     }
+
+    .homePlansProductsCard{
+        width: 28%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 1%;
+        border-radius: 5px;
+        padding: 0.5%;
+        background: rgba(10, 31, 9, 0.62);
+         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    }
+    
+
+    .homePlansDiv{
+        height: 50%;
+    }
+
     /* Text */
     .plansHomeDescription {
         font-size: 14px;
@@ -167,6 +193,23 @@
         flex-direction: row;
         justify-content: space-between;
     }
+
+    .homePlansProducts{
+        width: 100%;
+        display: block;
+        margin-top: 1.5%;
+        height: 26%;
+        background: rgba(7, 7, 7, 0.33);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(4.9px);
+        border: 1px solid rgba(7, 7, 7, 0.73);
+    }
+
+    .homePlansProductsContainer{
+        display: flex;
+        justify-content: space-around
+    }
 }
 
 @media screen and (min-width : 1060px) {
@@ -187,7 +230,7 @@
     }
 
     .homePlans{
-        height: fit-content;
+        height: fit-content;  
     }
 
     .plansLinkMeet {

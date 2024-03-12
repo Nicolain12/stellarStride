@@ -7,6 +7,11 @@
     display: none;
 }
 
+.ServiceHomeProyectsContain{
+    display: flex;
+    height: 100%;
+}
+
 .serviceProyectsContainer{
     background: rgba(7, 7, 7, 0.33);
     border-radius: 16px;
@@ -88,9 +93,6 @@
 
 @media screen and (min-width : 768px) {
 
-    .serviceHomePoyectsTitle{
-        display: none;
-    }
 
     .homeProyectsName{
         font-size: 1.4rem;
@@ -106,9 +108,6 @@
         display: block;
     }
     
-    .serviceProyectsContainer{
-        flex-direction: row;
-    }
 }
 
 

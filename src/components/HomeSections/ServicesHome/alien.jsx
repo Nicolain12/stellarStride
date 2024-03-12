@@ -15,19 +15,12 @@ const Aliens = () => {
 
     const modelRef = useRef();
 
-    useFrame(() => {
-      modelRef.current.rotation.y += 0.015;
-    });
-  
 
     return(
       <group>
       <mesh ref={modelRef}>
-        <primitive object={alien.scene} scale={1.4} />
+        <primitive object={alien.scene} scale={1.6} />
       </mesh>
-      <Html center>
-        <div style={{ color: "red", fontSize: "1.8em" }}>Proyects Examples</div>
-      </Html>
       </group>
     )
 
@@ -37,6 +30,7 @@ const AliensCanvas = () => {
     return(
     <Canvas className="canvasAlienService" gl={{ preserveDrawingBuffer: true }}>
         <ambientLight />
+        <OrbitControls  enableZoom={false}/>
         <pointLight />
         <Suspense fallback={<CanvasLoader/>}>
         <Aliens />

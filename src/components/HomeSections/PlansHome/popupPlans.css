@@ -16,11 +16,6 @@
     border-radius: 5px;
     color: black;
   }
-  
-  button {
-    margin-top: 10px;
-    cursor: pointer;
-  }
 
   .popupCloseDiv{
     display: flex;
