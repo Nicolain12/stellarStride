@@ -17,12 +17,12 @@ function PlansHomeCards() {
   const products = [{ name: "Development", description: "Web site creation with maintenance in time and marketing sistem includeing accounts management", service: "Web Development - Design ", price: 900 },
   { name: "Design", description: "Web site creation with maintenance in time and marketing sistem includeing accounts management", service: "Design", price: 900 }]
   
-  const plans = [{ name: "Marketing", description: "Web site creation with maintenance in time and marketing sistem includeing accounts management", service: "Web Development - Data Analityc - Marketing - Business Management", startingPrice: 800, monthPrice: 650 },
-    { name: "E-Commerce", description: "Web site creation with maintenance in time and marketing sistem includeing accounts management", service: "Web Development - Data Analityc - Marketing - Business Management", startingPrice: 800, monthPrice: 650 },
-    { name: "AudioVisual", description: "Web site creation with maintenance in time and marketing sistem includeing accounts management", service: "Web Development - Data Analityc - Marketing - Business Management", startingPrice: 800, monthPrice: 650 },
-    { name: "Web App", description: "Web site creation with maintenance in time and marketing sistem includeing accounts management", service: "Web Development - Data Analityc - Marketing - Business Management", startingPrice: 800, monthPrice: 650 },
-    { name: "Total", description: "Web site creation with maintenance in time and marketing sistem includeing accounts management", service: "Web Development - Data Analityc - Marketing - Business Management", startingPrice: 800, monthPrice: 650 },
-    { name: "Customized", description: "Web site creation with maintenance in time and marketing sistem includeing accounts management", service: "Web Development - Data Analityc - Marketing - Business Management", startingPrice: 800, monthPrice: 650 },]
+  const plans = [{ name: "Marketing", description: "Web site creation with maintenance in time and marketing sistem includeing accounts management", service: "Web Development - Marketing - Design", startingPrice: 800, monthPrice: 650 },
+    { name: "E-Commerce", description: "Web site creation with maintenance in time and marketing sistem includeing accounts management", service: "Web Development - Marketing - Design", startingPrice: 800, monthPrice: 650 },
+    { name: "AudioVisual", description: "Web site creation with maintenance in time and marketing sistem includeing accounts management", service: "Web Development - Marketing - Design", startingPrice: 800, monthPrice: 650 },
+    { name: "Web App", description: "Web site creation with maintenance in time and marketing sistem includeing accounts management", service: "Web Development - Marketing - Design", startingPrice: 800, monthPrice: 650 },
+    { name: "Total", description: "Web site creation with maintenance in time and marketing sistem includeing accounts management", service: "Web Development - Marketing - Design", startingPrice: 800, monthPrice: 650 },
+    { name: "Customized", description: "Web site creation with maintenance in time and marketing sistem includeing accounts management", service: "Web Development - Marketing - Design", startingPrice: 800, monthPrice: 650 },]
 
     return (
       <>

@@ -223,22 +223,32 @@
         align-content: center;    
     }
 
-}
-
-@media screen and (min-width : 425px) {
     .contactFormDiv{
-    display: flex;
-    flex-direction: row;
-    width: 70%;
-    padding: 2%;
-    background: rgba(7, 7, 7, 0.33);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(4.9px);
-    border: 1px solid rgba(7, 7, 7, 0.73);
-    }
-
+        display: flex;
+        flex-direction: row;
+        padding: 2%;
+        background: rgba(7, 7, 7, 0.33);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(4.9px);
+        border: 1px solid rgba(7, 7, 7, 0.73);
+        }
+    
     .contactStellarImg{
         display: block;
     }
+}
 
+@media screen and (min-width : 425px) {
+
+    .input-message{
+        height: 7.5rem;
+    }
+
+    .input-plan{
+        height: 3.5rem;
+    }
+
+    .input-name, .input-email, .input-company{
+        height: 2rem;
+    }
 }
